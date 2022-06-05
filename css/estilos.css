@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 /* ---- ----- ----- body ----- ----- ----- */
 
@@ -15,7 +18,32 @@ body {
 }
 
 
+/* ---- ----- ----- NAV ----- ----- ----- */
+
+.bg-light {
+    background-color: #0d2033;
+}
+
+.offcanvas-title {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+}
+
+.nav-link {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 20px;
+}
+
+.offcanvas-end {
+    background-color: #cecece;
+}
+
+
 /* ---- ----- ----- Contenedor ----- ----- ----- */
+
+.Tipografia-Batman {
+    font-family: 'Joan', serif;
+}
 
 .contenedor header .titulo {
     color: white;
@@ -269,6 +297,10 @@ body {
     margin: 5%;
 }
 
+.titulo_Red h1 {
+    font-family: 'Russo One', sans-serif;
+}
+
 .Explicacion_Red {
     margin: auto 20% auto auto;
 }
@@ -279,25 +311,25 @@ body {
 }
 
 
-/* ---- ----- ----- REPRODUCCION Clifford ----- ----- ----- */
+/* ---- ----- ----- REPRODUCCION Rio ----- ----- ----- */
 
 
-/* ---- ----- ----- REPRODUCCION Clifford ----- ----- ----- */
+/* ---- ----- ----- REPRODUCCION Rio ----- ----- ----- */
 
 
-/* ---- ----- ----- REPRODUCCION Clifford ----- ----- ----- */
+/* ---- ----- ----- REPRODUCCION Rio ----- ----- ----- */
 
-.Fondo_Clifford {
+.Fondo_Rio {
     margin: 0;
     min-height: 100vh;
-    background-image: url(https://www.themoviedb.org/t/p/original/w1B1oicpgsqmAL30CF8fPIgadkm.jpg);
+    background-image: url(https://www.themoviedb.org/t/p/original/1Augsgly9g8bXNyzmXRiL079s9u.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
-.Fondo_Clifford:before {
+.Fondo_Rio:before {
     content: "";
     width: 100%;
     min-height: 100vh;
@@ -312,21 +344,25 @@ body {
     background-color: #000;
 }
 
-.Contenido_Clifford {
+.Contenido_Rio {
     position: relative;
     color: #fff;
 }
 
-.Poster_Clifford {
+.Poster_Rio {
     margin: 5%;
     width: 50%;
 }
 
-.titulo_Clifford {
+.titulo_Rio {
     margin: 5%;
 }
 
-.Explicacion_Clifford {
+.titulo_Rio h1 {
+    font-family: 'Russo One', sans-serif;
+}
+
+.Explicacion_Rio {
     margin: auto 20% auto auto;
 }
 
@@ -381,6 +417,10 @@ body {
 
 .titulo_Hotel-transilvania {
     margin: 5%;
+}
+
+.titulo_Hotel-transilvania h1 {
+    font-family: 'Russo One', sans-serif;
 }
 
 .Explicacion_Hotel-transilvania {
@@ -440,6 +480,10 @@ body {
     margin: 5%;
 }
 
+.titulo_bebe h1 {
+    font-family: 'Russo One', sans-serif;
+}
+
 .Explicacion_bebe {
     margin: auto 20% auto auto;
 }
@@ -497,6 +541,10 @@ body {
     margin: 5%;
 }
 
+.titulo_Sonic h1 {
+    font-family: 'Russo One', sans-serif;
+}
+
 .Explicacion_Sonic {
     margin: auto 20% auto auto;
 }
@@ -507,25 +555,25 @@ body {
 }
 
 
-/* ---- ----- ----- REPRODUCCION Fuego ----- ----- ----- */
+/* ---- ----- ----- REPRODUCCION ZOOTOPIA ----- ----- ----- */
 
 
-/* ---- ----- ----- REPRODUCCION Fuego ----- ----- ----- */
+/* ---- ----- ----- REPRODUCCION ZOOTOPIA ----- ----- ----- */
 
 
-/* ---- ----- ----- REPRODUCCION Fuego ----- ----- ----- */
+/* ---- ----- ----- REPRODUCCION ZOOTOPIA ----- ----- ----- */
 
-.Fondo_Fuego {
+.Fondo_Zootopia {
     margin: 0;
     min-height: 100vh;
-    background-image: url(https://www.themoviedb.org/t/p/original/pFwvHAFyPEqtvJEoutPuobLwrNj.jpg);
+    background-image: url(https://www.themoviedb.org/t/p/original/ApJNL95MywEPMIg05Cd5Uo1meIP.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
-.Fondo_Fuego:before {
+.Fondo_Zootopia:before {
     content: "";
     width: 100%;
     min-height: 100vh;
@@ -540,21 +588,25 @@ body {
     background-color: #000;
 }
 
-.Contenido_Fuego {
+.Contenido_Zootopia {
     position: relative;
     color: #fff;
 }
 
-.Poster_Fuego {
+.Poster_Zootopia {
     margin: 5%;
     width: 50%;
 }
 
-.titulo_Fuego {
+.titulo_Zootopia {
     margin: 5%;
 }
 
-.Explicacion_Fuego {
+.titulo_Zootopia h1 {
+    font-family: 'Russo One', sans-serif;
+}
+
+.Explicacion_Zootopia {
     margin: auto 20% auto auto;
 }
 
@@ -562,6 +614,12 @@ body {
     color: #fff;
     text-decoration: none;
 }
+
+
+/* ---- ----- -----  FOOTERD ----- ----- ----- */
+
+
+/* ---- ----- -----  FOOTERD ----- ----- ----- */
 
 
 /* ---- ----- -----  FOOTERD ----- ----- ----- */
@@ -575,6 +633,12 @@ body {
 
 
 /*:::::Pie de Pagina*/
+
+.logo_footer {
+    justify-content: center;
+    align-content: center;
+    padding-left: 100px;
+}
 
 .pie-pagina {
     width: 100%;
@@ -642,11 +706,20 @@ body {
     font-size: 15px;
 }
 
+.grupo-1 {
+    justify-content: center;
+    align-content: center;
+}
+
 @media screen and (max-width:800px) {
     .pie-pagina .grupo-1 {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
         padding: 35px 0px;
+    }
+    .logo-footer {
+        align-content: center;
+        justify-content: center;
     }
 }
